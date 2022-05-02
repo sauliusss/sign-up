@@ -16,15 +16,19 @@ main {
 .left {
   display: inline-block;
   width: 40%;
-  background-color: blue;
+  background-color: #00afcc;
   float: left;
   padding: 40px;
+}
+
+.main-title {
+  color: #fff;
 }
 
 .right {
   display: inline-block;
   width: 60%;
-  background-color: red;
+  background-color: #494eac;
   float: left;
   padding: 60px;
 }
