@@ -13,7 +13,7 @@ main {
   margin-left: calc(50% - 400px);
 }
 
-.left {
+.left-column {
   display: inline-block;
   width: 40%;
   background-color: #00afcc;
@@ -23,12 +23,28 @@ main {
 
 .main-title {
   color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  width: 100%;
+  font-size: 32px;
 }
 
-.right {
+.terms a {
+  color: #fff;
+  font-weight: 300;
+  width: 100%;
+  font-size: 14px;
+}
+
+.right-column {
   display: inline-block;
   width: 60%;
   background-color: #494eac;
   float: left;
   padding: 60px;
+}
+
+.close-tag {
+  color: aliceblue;
+  display: inline-block;
 }
