@@ -19,10 +19,14 @@ main {
   background-color: #00afcc;
   float: left;
   padding: 40px;
+  background-image: url(../img/gatve.jpg);
+
+  background-position: center;
+  background-size: cover;
 }
 
 .main-title {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 500;
   display: inline-block;
   width: 100%;
@@ -30,7 +34,7 @@ main {
 }
 
 .terms a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 300;
   width: 100%;
   font-size: 14px;
