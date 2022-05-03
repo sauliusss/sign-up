@@ -3,3 +3,23 @@
   color: rgb(53, 182, 182);
   width: 100%;
 }
+
+.form-row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}
+
+input {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
