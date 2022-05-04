@@ -15,6 +15,7 @@ body {
   width: 800px;
   margin-top: 80px;
   margin-left: calc(50% - 400px);
+  position: relative;
 }
 
 .left-column {
@@ -26,6 +27,9 @@ body {
   background-image: url(../img/gatve.jpg);
   background-position: center;
   background-size: cover;
+  position: absolute;
+  bottom: 30px;
+  top: 30px;
 }
 
 .main-title {
@@ -46,14 +50,13 @@ body {
 .right-column {
   width: 60%;
   background-color: #ffffff;
-  float: left;
+  float: right;
   padding: 60px;
   position: relative;
 }
 
 .close-tag {
   color: rgb(44, 111, 170);
-
   display: inline-block;
   width: 60px;
   height: 60px;
