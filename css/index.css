@@ -33,7 +33,6 @@ body {
 }
 
 .main-title {
-  color: rgb(255, 255, 255);
   font-weight: 500;
   display: inline-block;
   width: 100%;
@@ -41,10 +40,15 @@ body {
 }
 
 .terms a {
+  display: inline-block;
+  position: absolute;
   color: rgb(255, 255, 255);
   font-weight: 300;
-  width: 100%;
+
   font-size: 15px;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
 }
 
 .right-column {
