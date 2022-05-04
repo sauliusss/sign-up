@@ -7,10 +7,10 @@
 }
 
 body {
-  background-color: #32620d;
+  background-color: #00afcc;
 }
 
-main {
+.container {
   display: inline-block;
   width: 800px;
   margin-top: 80px;
@@ -44,18 +44,27 @@ main {
 }
 
 .right-column {
-  display: inline-block;
   width: 60%;
   background-color: #ffffff;
   float: left;
   padding: 60px;
+  position: relative;
 }
 
 .close-tag {
-  color: aliceblue;
-  display: inline-block;
-}
+  color: rgb(44, 111, 170);
 
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 54px;
+  text-align: center;
+  font-size: 30px;
+  float: right;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
 span {
   display: inline-block;
   padding: 15px;
