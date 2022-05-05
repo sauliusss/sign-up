@@ -20,6 +20,20 @@ body {
   object-position: center;
 }
 
+.close-tag {
+  color: rgb(44, 111, 170);
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 54px;
+  text-align: center;
+  font-size: 30px;
+  float: right;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
 .container {
   display: inline-block;
   width: 800px;
@@ -81,23 +95,21 @@ body {
   position: relative;
 }
 
-.close-tag {
-  color: rgb(44, 111, 170);
+.right-column span {
   display: inline-block;
-  width: 60px;
-  height: 60px;
-  line-height: 54px;
-  text-align: center;
-  font-size: 30px;
-  float: right;
-  top: 0;
-  right: 0;
-  position: absolute;
+  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  line-height: 20px;
+  font-size: 18px;
 }
 
 .right-column a {
   display: inline-block;
   padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
@@ -109,5 +121,5 @@ body {
 
 .form-row a {
   color: #214bd5;
-  font-size: 24px;
+  font-size: 18px;
 }
