@@ -1,7 +1,7 @@
 .form-row > .btn {
   display: inline-block;
   width: auto;
-  background-color: #214bd5;
+  background: linear-gradient(90deg, rgba(35, 74, 213, 1) 0%, rgba(0, 97, 221, 1) 100%);
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
@@ -15,5 +15,5 @@
 }
 
 .btn:hover {
-  background-color: #2b76df;
+  background: linear-gradient(90deg, rgba(213, 35, 35, 1) 0%, rgba(221, 0, 101, 1) 100%);
 }
